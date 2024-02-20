@@ -1,1 +1,76 @@
-/* место для вашего кода */
+.header {
+  margin: 92px 24px 96px;
+  display: grid;
+  grid-template-columns: 454px 148px 450px;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin: 44px 0 40px 26.52px;
+}
+
+.header__links-list {
+  display: flex;
+  justify-content: space-between;
+  width: 391.48px;
+}
+
+.header__links-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.header__logo {
+  display: flex;
+  height: 104.65px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.address {
+  width: 240.52px;
+  margin: 0 0 0 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.address a {
+  text-decoration: none;
+}
+
+.p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  color: #000;
+  font-style: normal;
+}
+
+.address__item {
+  font-style: normal;
+  width: fit-content;
+  border-bottom: solid 1px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.
