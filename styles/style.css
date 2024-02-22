@@ -281,14 +281,12 @@
 
 .about {
   margin: 146px 24px 180px;
-  
 }
 
 .about__column {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 334px auto;
-  
 }
 
 .about__logo {
@@ -302,13 +300,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .about__logo-image {
   width: 148px;
   height: 114px;
-  
 }
 
 .about__title {
@@ -329,7 +325,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 
   color: #000;
   display: flex;
   flex-direction: column;
@@ -360,8 +355,6 @@ p1 {
 
 .footer__menu {
   display: flex;
-
-  
 }
 
 .footer__links-list {
@@ -374,24 +367,10 @@ p1 {
   text-align: center;
   color: #000;
   text-underline-position: under;
-
 }
-
-.footer__link {
-
-}
-
-.footer__link_active {
-
-}
-
 .footer__social-list {
   width: 240px;
   height: 48px;
   display: flex;
   gap: 48px;
-}
-
-.footer__social-icon {
-
 }
