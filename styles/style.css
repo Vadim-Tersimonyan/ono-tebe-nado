@@ -169,7 +169,7 @@
   text-transform: uppercase;
   text-align: center;
   z-index: 1;
-  font-family: inherit;
+  font-family: Raleway, sans-serif;
 }
 
 .lots {
@@ -315,10 +315,6 @@
   display: flex;
   margin: 180px 50px 88px;
   justify-content: space-between;
-}
-
-.address a {
-  text-decoration: none;
 }
 
 .footer__menu {
